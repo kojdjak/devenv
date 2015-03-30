@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#update first
+yum -y update
+
 #install wget
 yum -y install wget
 
