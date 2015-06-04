@@ -5,6 +5,6 @@ var myServer = http.createServer(function(request, response) {
   response.end(); 
 });
 
-myServer.listen(3000);
+myServer.listen(1234);
 
-console.log("Server running at 3000");
+console.log("Server running at 1234");
