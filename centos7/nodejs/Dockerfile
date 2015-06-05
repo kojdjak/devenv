@@ -18,10 +18,12 @@ RUN yum install -y zsh
 
 RUN yum install -y epel-release
 RUN yum install -y nodejs npm
+RUN npm install -g express-generator
 
 RUN mkdir /code
 WORKDIR /code
 RUN git clone https://github.com/supowski/devenv
 WORKDIR /code/devenv
 RUN git config user.email "juraj.kojdjak@gmail.com"
+
 
