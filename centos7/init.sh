@@ -18,5 +18,5 @@ yum -y install vifm-0.7.8-1.fc22.x86_64.rpm
 yum -y install zsh
 
 #install ruby
-#yum -y install ruby
+yum -y install ruby
 
