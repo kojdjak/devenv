@@ -11,6 +11,7 @@ RUN yum install -y vifm-0.7.8-1.fc22.x86_64.rpm
 
 RUN yum install -y zsh
 
+RUN yum install -y ruby
 
 RUN mkdir /code
 WORKDIR /code
@@ -20,7 +21,7 @@ RUN git config user.email "juraj.kojdjak@gmail.com"
 
 RUN cp -r conf/.vimrc /root/
 RUN cp -r conf/.vifm /root/
-#RUN cp -r conf/.zshrc /root/
+RUN cp -r conf/.zshrc /root/
 
 RUN yum install -y epel-release
 RUN yum install -y nodejs npm
