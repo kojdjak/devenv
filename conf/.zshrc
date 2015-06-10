@@ -7,8 +7,8 @@ export MANPAGER="less -X" # Don’t clear the screen after quitting a manual pag
 export EDITOR="vim"
 export TERM="screen-256color"
 export CLICOLOR=1
-export LSCOLORS=Gxfxcxdxbxegedabagacad
-export LS_COLORS=Gxfxcxdxbxegedabagacad
+# export LSCOLORS=Gxfxcxdxbxegedabagacad
+# export LS_COLORS=Gxfxcxdxbxegedabagacad
 # }}}
 
 # Ruby {{{
