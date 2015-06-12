@@ -26,5 +26,9 @@ RUN cp -r conf/.zshrc /root/
 RUN yum install -y epel-release
 RUN yum install -y nodejs npm
 RUN npm install -g express-generator
+RUN npm install -g coffee-script
+
+RUN mkdir /code/git
+WORKDIR /code/git
 
 
